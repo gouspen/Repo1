@@ -9,6 +9,7 @@ import gous.HomePage;
 import gous.SignInPage;
 
 public class TC_01_SignIn {
+	
 	@BeforeTest
 	public static void open() throws Exception {
 		SignInPage.openApplication();

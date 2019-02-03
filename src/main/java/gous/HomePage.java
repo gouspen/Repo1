@@ -96,11 +96,11 @@ public class HomePage {
 		List<WebElement> columns = element.findElements(By.tagName("td"));
 
 		for (WebElement cell : columns) {
-//			System.out.println(cell.getText());
-			if (cell.getText().equals(currentDay)) {
-				cell.click();
-				break;
-			}
+			System.out.println(cell.getText());
+//			if (cell.getText().equals(currentDay)) {
+//				cell.click();
+//				break;
+//			}
 		}
 	}
 

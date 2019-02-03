@@ -25,6 +25,7 @@ public class CommonMethods {
 	private final static String path = "F:\\codingRound-master\\codingRound-master\\src\\main\\java\\TestCases\\Data.xlsx";
 
 	public static String readExcel(int Row, int col) throws Exception {
+		
 		FileInputStream file = new FileInputStream(path);
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 		XSSFSheet sheet = workbook.getSheetAt(0);

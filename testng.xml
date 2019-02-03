@@ -1,0 +1,8 @@
+<suite name="My Suite">
+	<test name="My test">
+		<classes>
+			<class name="TestCases.TC_01_SignIn" />
+			<class name="TestCases.TC_02_Flight_Booking" />
+		</classes>
+	</test>
+</suite>

@@ -104,6 +104,7 @@ public class Hotels {
 	public static void selectCheckOutDate() {
 		clickCheckOutDate();
 		element = BaseClass.getDriver().findElement(By.xpath(".//*[@id='ui-datepicker-div']/div[1]/table/tbody"));
+		
 		List<WebElement> elements = element.findElements(By.tagName("td"));
 		getCheckOutDay();
 
@@ -120,6 +121,7 @@ public class Hotels {
 		Calendar calendar = Calendar.getInstance(TimeZone.getDefault());
 		Date date = calendar.getTime();
 		int currentday = calendar.get(Calendar.DATE);
+//		currentday=currentday+2;
 		currentday++;
 		currentDay = Integer.toString(currentday);
 //		System.out.println("Current Day is:: " + currentDay);
